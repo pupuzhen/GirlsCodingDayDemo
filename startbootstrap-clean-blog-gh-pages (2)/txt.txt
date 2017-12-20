@@ -1,5 +1,0 @@
-<html>
-    <head>
-        <title>I like coding</title>
-    </head>
-</html>
