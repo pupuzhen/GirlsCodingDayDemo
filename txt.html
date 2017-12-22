@@ -3,13 +3,54 @@
      <title>I like coding</title> 
      <style> 
         /* body{background-color: rgb(226, 43, 43)} */ 
- 
+      
         #ppp{color: red} 
         #kkp{color: green} 
+    
+        div.news
+        {
+          border-top:3px;
+          margin-left:auto;
+          margin-right:auto;
+          width:70%;
+          background-color:#b0e0e6;
+          color:red
+}
      </style> 
+
+<style>
+  div.img
+    {
+      margin:3px;
+      border:1px solid #bebebe;
+      height:auto;
+      width:auto;
+      display:left;
+      text-align:center;
+      
+    }
+  div.img img
+    {
+    display:inline;
+    margin:3px;
+    border:1px solid #bebebe;
+    }
+  div.img a:hover img
+    {
+    border:1px solid #333333;
+    }
+  div.desc
+    {
+    text-align:center;
+    font-weight:normal;
+    width:150px;
+    font-size:12px;
+    margin:10px 5px 10px 5px;
+    }
+  </style>
    </head> 
    <body> 
-
+    
         <h1>Girls Coding Day</h1>
         <hr class="big">
         <h2>程序媛的起步</h2>
@@ -17,11 +58,13 @@
         <h4>Day 1</h4>
         <h5>20171221</h5>
         <h6>9天后就2018咯，非常开心</h6>
+    
 <!--       
      <ul> 
      <li>Coffee</li> 
      <li>Milk</li> 
      </ul>  -->
+     <div>
      <a id="ppp" href="http://www.baidu.com">百度</a> 
      <a id="kkp" href="http://www.zhihu.com">知乎</a> 
      <button type="button">点击此处</button>
@@ -31,11 +74,41 @@
             <option value="不确定意向">不确定意向</option>
             <option value="无意向">无意向</option>
           </select>
+     </div>
 
+          <div class="img">
+            <a target="_blank" href="http://pic67.nipic.com/file/20150515/4682019_152255521000_2.jpg">
+            <img src="http://pic67.nipic.com/file/20150515/4682019_152255521000_2.jpg" alt="Ballade" width="300" height="300">
+            </a>
+            <div class="desc">摩天大楼</div>
+          </div>
+          
+          <div class="img">
+            <a target="_blank" href="http://pic38.nipic.com/20140222/17953983_140617298000_2.jpg">
+            <img src="http://pic38.nipic.com/20140222/17953983_140617298000_2.jpg" alt="Ballade" width="300" height="300">
+            </a>
+            <div class="desc">公共空间</div>
+          </div>
+          
+          <div class="img">
+            <a target="_blank" href="http://pic38.nipic.com/20140222/17953983_140506930000_2.jpg">
+            <img src="http://pic38.nipic.com/20140222/17953983_140506930000_2.jpg" alt="Ballade" width="300" height="300">
+            </a>
+            <div class="desc">独立建筑物</div>
+          </div>
+          
+          <div class="img">
+            <a target="_blank" href="http://pic38.nipic.com/20140222/17953983_140428652000_2.jpg">
+            <img src="http://pic38.nipic.com/20140222/17953983_140428652000_2.jpg" alt="Ballade" width="300" height="300">
+            </a>
+            <div class="desc">城市俯瞰</div>
+          </div>
+          <hr class="big">
+        </div>  
+      
+     
 
-     <hr class="big">
-
-     <div style="color:rgb(255, 0, 64);background-color: rgb(209, 236, 158)">
+     <div class="news">
             <h3>最新消息</h3>
             <p>还有两天就Girls Coding Day就要开始了</p>
           </div>
